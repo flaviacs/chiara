@@ -33,14 +33,10 @@
             android:name="com.example.persistenciadadossqlite.EditLivroActivity"
             android:label="@string/title_activity_edit_livro" >
         </activity>
+        
         <activity
             android:name="com.example.persistenciadadossqlite.SplashScreenActivity"
             android:label="@string/title_activity_splash_screen" >
-            
-        </activity>
-        <activity
-            android:name="com.example.persistenciadadossqlite.Spactiviti"
-            android:label="@string/title_activity_spactiviti" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
