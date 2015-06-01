@@ -48,8 +48,9 @@
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="15dp"
-        android:ems="10" />
-
+        android:ems="10" > 
+        <requestFocus/>
+    </EditText>
     <Button
         android:id="@+id/btnCancelar"
         android:layout_width="match_parent"
@@ -87,9 +88,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp"
         android:ems="10"
-        android:hint="ID" >
-
-        <requestFocus />
-    </EditText>
+        android:hint="ID"  />
 
 </RelativeLayout>
